@@ -1,0 +1,50 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    color:red;
+    background-color:darkgray   ;
+}
+h2{
+    text-align:left;
+    background-color: green;
+    text-decoration:underline;
+}
+.flex-container{
+    display:flex; 
+    height:300px;
+    background-color:darkmagenta;   
+}
+.item{
+    border:2px solid blue;
+    background-color: lightgreen;
+    min-height:100px;
+    width: 100px;
+    color:blue;
+    /* margin:10px; */
+}
+.flex-start{
+    align-self:flex-start;
+}
+.flex-end{
+    align-self:flex-end;
+}
+.stretch{
+    align-self:stretch;
+}
+.center{
+    align-self:center;
+}
+.baseline{
+    align-self:baseline;
+    font-size:25px;
+}
+.flex-container .item:nth-child(3){
+    font-size:25px;
+}
+/* this used for go to page*/
+.main{
+    text-align:left;
+}
+a:hover{
+    background-color:blue;  
+}

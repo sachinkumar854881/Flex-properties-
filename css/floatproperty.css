@@ -1,0 +1,52 @@
+.container{
+    width:900px;
+}
+*{
+    text-align:center;
+    font-family:Arial, Helvetica, sans-serif;
+    color:red;
+    background-color:darkgray;
+}
+h2{
+    text-align:left;
+    font-family:Arial, Helvetica, sans-serif;
+    color:red;
+    background-color: green;
+}
+.left{
+    float:left;
+    width:20%;
+    height:200px;
+    background-color:blue;
+    clear:left;
+}
+.right{
+    float:right;
+    width:20%;
+    height:200px;
+    background-color:blueviolet;
+    clear:right;
+}
+.clear{
+    clear:both;/* ye space clear karega both side se */
+}
+.left-column{
+    float:left;/*ye div ko left se right leke jaayega */
+    width:20%;
+    height:200px;
+    background-color:blue;
+}
+.right-column{
+    float:right;/*ye div ko right se left leke jayyega  */
+    width:20%;
+    height:200px;
+    background-color: blueviolet;
+}
+/*this used for go to main page link */
+.main{
+    text-align:left;
+    color:black;
+}
+.main a:hover{
+    background-color:blue;
+}

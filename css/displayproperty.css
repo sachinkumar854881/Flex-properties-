@@ -1,0 +1,25 @@
+.block{
+    display:block;
+    height:100px;
+}
+.inline{
+    display:inline;
+}
+.inline-block{
+    display:inline-block;
+    height:100px;
+}
+div{
+    border:2px solid green;  
+}
+span{
+    border:2px solid red;
+}
+/*this used for go to main page link */
+.main{
+    text-align:left;
+    color:black;
+}
+.main a:hover{
+    background-color:blue;
+}
